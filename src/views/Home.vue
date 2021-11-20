@@ -1,5 +1,5 @@
 <template>
-  <div class="home"></div>
+  <div class="box"></div>
 </template>
 
 <script>
@@ -17,3 +17,10 @@ export default {
   }
 };
 </script>
+<style scoped lang="scss">
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: $color;
+}
+</style>
