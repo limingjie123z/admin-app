@@ -14,6 +14,10 @@ export default {
   },
   mounted () {
     console.log(process.env)
+    let fn=()=>{
+      console.log('ie兼容')
+    }
+    fn()
   }
 };
 </script>
