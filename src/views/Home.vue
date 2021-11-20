@@ -13,6 +13,7 @@ export default {
     }
   },
   mounted () {
+    console.log(this.$style)
     console.log(process.env)
     let fn=()=>{
       console.log('ie兼容')
